@@ -1,11 +1,13 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": null,
   "headers": [
     {
       "source": "/public/Anantha_Sai_Resume_CSM_2026.pdf",
       "headers": [
-        { "key": "Content-Disposition", "value": "attachment; filename=\"Anantha_Sai_Resume.pdf\"" }
+        { "key": "Content-Disposition", "value": "attachment; filename=\"Anantha_Sai_Resume.pdf\"" },
+        { "key": "Content-Type", "value": "application/pdf" }
       ]
     }
   ]
